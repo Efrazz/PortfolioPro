@@ -494,16 +494,12 @@ ul a:hover {
 	-ms-transform: rotate(5deg);
 	-o-transform: rotate(5deg);
 }
-.card-project:hover ~ .card-project
-
- {
+.card-project:hover ~ .card-project {
 	transform: translateX(22rem);
 	-webkit-transform: translateX(24rem);
 	-moz-transform: translateX(22rem);
 	-ms-transform: translateX(22rem);
 	-o-transform: translateX(22rem);
-	
-	
 }
 .card-project .card-bg {
 	border-top-right-radius: 14px;
