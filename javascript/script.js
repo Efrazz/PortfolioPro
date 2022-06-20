@@ -1,6 +1,7 @@
 /** @format */
 
 const menuNav = document.querySelector(".nav-menu");
+
 const skillNav = document.querySelector(".skill-menu");
 const expNav = document.querySelector(".exp-menu");
 const testNav = document.querySelector(".test-menu");
@@ -116,4 +117,8 @@ optionPrevious.onclick = function () {
 		currentOptionText2.innerText = text2_options[i];
 		carousel.classList.remove("anim-previous");
 	}, 650);
+};
+
+const newTest = () => {
+	console.log("Hello world, this is Ephrem");
 };
